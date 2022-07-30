@@ -53,7 +53,7 @@ The work here is divided across four notebooks:
 
 ## Authors
 
-- Aahana Bajracharya (Leader)
+- Aahana Bajracharya
 - Tessa Rusch 
 - Jacob Elder
 - Zehan (Allen) Zhao
