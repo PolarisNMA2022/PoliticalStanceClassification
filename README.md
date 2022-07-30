@@ -40,7 +40,7 @@ The work here is divided across four notebooks:
 - [Notebook 4: Neural network with pretraiend Longformer Layer]()
   - We made a neual network with 4 layers to classify political stance using first 1000 words of the articles with Longformer Language model. It has a final accuracy of 91% after training 2 epochs.
 
-Notes the the notebook above are written with [dummy data](). The link of binary files of the neural network models trained by the original 204,000 articles can be found in the notebook below.
+Notes the except the Notebook1, other notebooks above are saved with [dummy data](). The link of binary files of the neural network models trained by the original 204,000 articles can be found in the notebook below.
 
 - [Classify your text's political orientation]() 
   - Using the link of pretrained models in this notebook, you can test your own text's political orientation.
