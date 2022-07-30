@@ -31,11 +31,11 @@ We assume that your machine has a python with packages as below. Try below comma
 
 The work here is divided across four notebooks:
 
-- [Notebook 1: Logistic Regression]()
+- [Notebook 1: Logistic Regression](https://github.com/PolarisNMA2022/PoliticalStanceClassification/blob/a733de1b9393db44d1cc63bd2271cc56e3cec362/notebooks/Political_stance_classification_using_Logistic_regression.ipynb)
   - We adopt the logistic regression as a baseline model for predicting political stance. It has a final test accuracy of 67%.
 - [Notebook 2: Multi-Layer perceptron (MLP) using pretrained FastText Embeddings]()
   - We use context-insensitive MLP using pretrained FastText Embeddings. It has final test accuracy of 64%.
-- [Notebook 3: Neural network with pretraiend BERT Layer](notebooks/Political_stance_classification_using_BERT.ipynb)
+- [Notebook 3: Neural network with pretraiend BERT Layer](https://github.com/PolarisNMA2022/PoliticalStanceClassification/blob/a733de1b9393db44d1cc63bd2271cc56e3cec362/notebooks/Political_stance_classification_using_BERT.ipynb)
   - We made a neual network with 4 layers to classify political stance using first 512 words of the articles with BERT Language model. It has a final accuracy of 85% after training 5 epochs.
 - [Notebook 4: Neural network with pretraiend Longformer Layer]()
   - We made a neual network with 4 layers to classify political stance using first 1000 words of the articles with Longformer Language model. It has a final accuracy of 91% after training 2 epochs.
