@@ -59,3 +59,7 @@ Notes the except the Notebook1, other notebooks above are saved with [dummy data
 - Zehan (Allen) Zhao
 - Israel Gonzalez-Brooks
 - Byeongsu Yu
+
+## License
+
+Since we are allowed to use the data as a educational purpose only. Please do not use the data with other purpose.
