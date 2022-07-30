@@ -16,13 +16,6 @@ We focus on randomly sampled 255,000 articles, consisting of three chunks contai
 
 ## Getting Started
 
-Ensure you have Docker installed before completing the following steps.
-
-1. Run `./build.sh` in the main repo folder to build the Docker image.
-2. Run `./run-notebook.sh` to receive the notebook URL. Copy/paste this into your browser to access the notebook.
-3. Start with the notebooks in order. Notebook 02- prepared the data for the other notebooks.
-
-Additionally, you should run step 1 (`./build.sh`) after each pull where the Dockerfile has been updated to rebuild your local version against the latest update.
 
 ## Documentation
 
