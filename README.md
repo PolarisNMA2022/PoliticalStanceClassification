@@ -1,4 +1,4 @@
-# PoliticalStanceClassification
+# Political Stance Classification
 
 ## Introduction
 
