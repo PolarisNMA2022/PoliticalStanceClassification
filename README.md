@@ -33,16 +33,16 @@ The work here is divided across four notebooks:
 
 - [Notebook 1: Logistic Regression](https://github.com/PolarisNMA2022/PoliticalStanceClassification/blob/a733de1b9393db44d1cc63bd2271cc56e3cec362/notebooks/Political_stance_classification_using_Logistic_regression.ipynb)
   - We adopt the logistic regression as a baseline model for predicting political stance. It has a final test accuracy of 67%.
-- [Notebook 2: Multi-Layer perceptron (MLP) using pretrained FastText Embeddings]()
+- [Notebook 2: Multi-Layer perceptron (MLP) using pretrained FastText Embeddings](https://github.com/PolarisNMA2022/PoliticalStanceClassification/blob/30094ec9bc844b691f977214304fd476e39ff491/notebooks/Political_stance_classification_using_MLP_with_FastText.ipynb)
   - We use context-insensitive MLP using pretrained FastText Embeddings. It has final test accuracy of 64%.
 - [Notebook 3: Neural network with pretraiend BERT Layer](https://github.com/PolarisNMA2022/PoliticalStanceClassification/blob/a733de1b9393db44d1cc63bd2271cc56e3cec362/notebooks/Political_stance_classification_using_BERT.ipynb)
   - We made a neual network with 4 layers to classify political stance using first 512 words of the articles with BERT Language model. It has a final accuracy of 85% after training 5 epochs.
-- [Notebook 4: Neural network with pretraiend Longformer Layer]()
+- [Notebook 4: Neural network with pretraiend Longformer Layer](https://github.com/PolarisNMA2022/PoliticalStanceClassification/blob/30094ec9bc844b691f977214304fd476e39ff491/notebooks/Political_stance_classification_using_Longformer.ipynb)
   - We made a neual network with 4 layers to classify political stance using first 1000 words of the articles with Longformer Language model. It has a final accuracy of 91% after training 2 epochs.
 
 Notes the except the Notebook1, other notebooks above are saved with [dummy data](). The link of binary files of the neural network models trained by the original 204,000 articles can be found in the notebook below.
 
-- [Classify your text's political orientation]() 
+- [Classify your text's political orientation](https://github.com/PolarisNMA2022/PoliticalStanceClassification/blob/30094ec9bc844b691f977214304fd476e39ff491/notebooks/Classify_political_orientation_using_pretrained_model.ipynb) 
   - Using the link of pretrained models in this notebook, you can test your own text's political orientation.
 ## Model Performance
 
