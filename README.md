@@ -4,7 +4,7 @@
 
 This is a repository collecting all the codes and data of the project done by Team "Polaris" at NMA 2022 Deep Learning Boot Camp. We use logistic regressions and neural networks applied to articles of news data from [BIGNEWS](https://github.com/launchnlp/POLITICS) to make classification of its political stance, among left, center, and right.
 
-Specifically, we make a prediction on the political stance of the article based on the whole article (logistic regression, Multi-layer perceptron with FastText) or first 512 words (BERT) or 1000 words (Longformer) of the article.
+Specifically, we make a prediction on the political stance of the article based on the whole article (**logistic regression, Multi-layer perceptron with FastText**) or first 512 words (**BERT**) or 1000 words (**Longformer**) of the article.
 
 This is intended as a demonstrate of the applications on this data set.
 
@@ -44,6 +44,14 @@ Notes the except the Notebook1, other notebooks above are saved with [dummy data
 
 - [Classify your text's political orientation]() 
   - Using the link of pretrained models in this notebook, you can test your own text's political orientation.
+## Model Performance
+
+| Model                     | Test accuracy |
+| ------------------------- | ------------- |
+| Logistic Regression       | 67%           |
+| MLP with FastText         | 64%           |
+| Neural Net with BERT      | 85%           |
+| Neural Net with Longformer| 91%           |
 
 ## Documentation
 
